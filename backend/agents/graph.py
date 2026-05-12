@@ -11,7 +11,7 @@ from backend.vectorstore.faiss_store import FAISSRetriever
 
 # Initialize LLM
 # Using Gemini 1.5 Flash as requested (via google-genai)
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.0)
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0.0)
 
 # We expect the retriever to be initialized externally or here as a singleton
 # Assuming the FastAPI app will initialize it and pass it or we use a global

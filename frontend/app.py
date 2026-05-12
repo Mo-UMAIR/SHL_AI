@@ -1,6 +1,11 @@
 import streamlit as st
 import requests
 import os
+import sys
+
+# Add the project root to the Python path to fix ModuleNotFoundError
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from frontend.components.cards import render_assessment_card
 
 # Default API URL
