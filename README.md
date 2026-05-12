@@ -25,7 +25,7 @@ Create a `.env` file in the root directory:
 GEMINI_API_KEY=your_api_key_here
 ```
 
-### 3. Run in terminal
+### 2. Run in terminal
 **Prerequisites:** Python 3.10+
 ```bash
 # Create virtual environment
