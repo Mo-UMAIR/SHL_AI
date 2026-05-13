@@ -85,7 +85,7 @@ streamlit run frontend/app.py
 
 ## 🔌 API Specification
 
-The core requirement of this assignment is a fully stateless API. 
+The core requirement of this assignment is a fully stateless API. The following endpoints (available at http://localhost:8000/docs):
 
 ### `GET /health`
 Returns the readiness of the server.
