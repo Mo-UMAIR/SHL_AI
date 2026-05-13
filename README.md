@@ -38,8 +38,9 @@ SHL_AI/
 ├── frontend/
 │   ├── components/      # UI components (Assessment Cards)
 │   └── app.py           # Interactive Streamlit interface
-├── Dockerfile           # Production container configuration
+├── .env                 # Production container configuration
 ├── approach.md          # In-depth technical architecture document
+├── README.md            # Project documentation
 ├── list_models.py       # Helper to verify Gemini API access
 ├── test_api.py          # Script for testing the API programmatically
 └── requirements.txt     # Python dependencies
@@ -54,7 +55,7 @@ SHL_AI/
 - A Google Gemini API Key
 
 ### 2. Environment Variables
-Create a `.env` file in the root of the project:
+Update a `.env` file (use own gemini api key):
 ```env
 GEMINI_API_KEY=your_api_key_here
 ```
